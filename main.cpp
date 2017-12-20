@@ -8,12 +8,12 @@ int betu(int a)
     while(a){
         switch(a%10){
             case 1:cout<<"egy ";break;
-            case 2:cout<<"ketto ";break;
-            case 3:cout<<"harom ";break;
-            case 4:cout<<"negy ";break;
-            case 5:cout<<"ot ";break;
+            case 2:cout<<"kettö ";break;
+            case 3:cout<<"három ";break;
+            case 4:cout<<"négy ";break;
+            case 5:cout<<"öt ";break;
             case 6:cout<<"hat ";break;
-            case 7:cout<<"het ";break;
+            case 7:cout<<"hét ";break;
             case 8:cout<<"nyolc ";break;
             case 9:cout<<"kilenc ";break;
                 }a=a/10;
@@ -34,4 +34,3 @@ if (i%7==0){
 	}
     return 0;
 }
-
