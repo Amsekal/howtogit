@@ -2,9 +2,10 @@
 
 using namespace std;
 int main()
-{int a=1000;
-for(int i=1;i<=a;i++)
-cout<<i<<" ";
-
+{
+    for(int i=1;i<=1000;i++)
+        if (i % 3 == 0){
+        cout<<i<<"\n";
+        }
     return 0;
 }
